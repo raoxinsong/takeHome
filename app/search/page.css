@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+.searchPage{
+   padding: 10px;
+}
+
+input {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    width: 100%;
+}
+
+
+.fixtureItem {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.fixtureContent {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #f9f9f9;
+  flex: 1;
+}
+
+.detailContent {
+  margin-left: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  width: 300px;
+}
